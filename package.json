@@ -1,5 +1,5 @@
 {
-  "name": "node-poplib-gowhich",
+  "name": "node-poplib-gowhich-socks-proxy",
   "version": "1.0.2",
   "description": "POP3 client library for Node.js",
   "main": "main.js",
@@ -14,18 +14,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhangda89/node-poplib.git"
+    "url": "git+https://github.com/l33t-man/node-poplib.git"
   },
   "keywords": [
     "POP3",
     "Lib",
-    "pop3"
+    "pop3",
+    "proxy"
   ],
   "author": {
     "name": "Durban",
     "email": "zhangdapeng89@126.com",
     "url": "http://www.gowhich.com"
   },
+  "maintainers": [
+    {
+      "name": "Georgiy Chirkov",
+      "email": "mail@api.haus"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zhangda89/node-poplib/issues"
@@ -39,6 +46,7 @@
     "nodemailer": "^1.4.0"
   },
   "dependencies": {
-    "mailparser": "^0.5.1"
+    "mailparser": "^0.5.1",
+    "proxysocket": "^1.2.0"
   }
 }
