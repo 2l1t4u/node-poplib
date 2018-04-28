@@ -1,5 +1,5 @@
-# node-poplib-gowhich
-Another POP3 library
+# node-poplib-gowhich-socks-proxy
+Another POP3 library. It's a fork of [durban89/node-poplib](https://github.com/durban89/node-poplib) but with socks proxy support.
 
 The design propose of the library is simplicity. A lot of common tasks with you POP3 mailbox doesn't require knowledge of
 the eleven POP3 commands. You just want to retrieve some messages from your mailbox and that's all! So here is quick
@@ -47,6 +47,8 @@ When you create new Client object you should pass an object which describes conn
 * **username** - _string_ - mailbox username
 * **password** - _string_ - mailbox password
 * **mailparser** - _boolean_ - use [mailparser](https://github.com/andris9/mailparser) library to automatically decode messages
+* **proxyHost** - _string_ - socks proxy host
+* **proxyPort** - _number_ - socks proxy port
 
 ## Properties
 
